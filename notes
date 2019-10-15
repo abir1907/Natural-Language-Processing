@@ -1,0 +1,11 @@
+text1.concordance(<word>)
+text1.similar(<word>)
+text1.common_contexts(<list_of_words>)
+text1.dispersion_plot(<list_of_words>)
+fdist1=FreqDist(text1)
+fdist1.most_common(50)
+fdist1.plot(50, cumulative=True) -> cumulative default False
+fdist1.hapaxes()
+fdist1.freq(<word>)
+fdist1.tabulate()
+text1.collocations()
